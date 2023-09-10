@@ -28,3 +28,11 @@ nav a {
   display: flex;
   justify-content: space-around;
 }
+
+h1 strong {
+  text-decoration: solid underline;
+}
+
+h1 {
+  font-weight: 400;
+}
