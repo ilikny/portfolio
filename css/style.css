@@ -3,6 +3,12 @@
     sans-serif;
 }
 
+main,
+footer {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
 .footer__icon {
   width: 30px;
   height: 30px;
@@ -35,4 +41,49 @@ h1 strong {
 
 h1 {
   font-weight: 400;
+}
+
+.skills__progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__four-titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home__four-texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.home__on-the-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.home__text {
+  margin: 50px;
+}
+
+.home__white-circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.home__white-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 20px;
 }
