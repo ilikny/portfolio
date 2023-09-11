@@ -12,13 +12,17 @@ footer {
 .footer__icon {
   width: 30px;
   height: 30px;
-  color: #ebebeb;
+  /* color: #ebebeb; */
 }
 
 .contact__icon {
   width: 50px;
   height: 50px
 }
+
+/* img.contact__icon {
+  color: white;
+} */
 
 .top__icon {
   width: 30px;
@@ -97,4 +101,18 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 150%;
+}
+
+.contact__title-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #232323;
+  color: white;
+  padding-bottom: 2%;
 }
