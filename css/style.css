@@ -128,3 +128,7 @@ h3 {
 .home__top-text {
   padding: 0;
 }
+
+svg {
+  fill: white;
+}
