@@ -10,9 +10,11 @@ footer {
 }
 
 .footer__icon {
-  width: 30px;
-  height: 30px;
+  width: 80px;
+  height: 80px;
+  /* fill: white; */
   /* color: #ebebeb; */
+
 }
 
 .contact__icon {
@@ -31,13 +33,15 @@ footer {
 
 nav a {
   text-decoration: none;
-
+  color: white;
 }
 
 .top__nav {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  background-color: #232323;
 }
 
 h1 strong {
@@ -46,6 +50,8 @@ h1 strong {
 
 h1 {
   font-weight: 400;
+  font-size: 300%;
+  padding-bottom: 0;
 }
 
 .skills__progress-bar {
@@ -72,6 +78,7 @@ h1 {
   justify-content: center;
   align-items: center;
   margin: 100px;
+  padding: 0;
 }
 
 .home__text {
@@ -86,16 +93,17 @@ h1 {
 }
 
 .home__white-circle {
-  width: 10px;
-  height: 10px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: black;
   margin: 20px;
 }
 
-/* div.home__text-dark-grey * {
+.home__text-dark-grey {
+
   background-color: #232323;
-} */
+}
 
 footer {
   display: flex;
@@ -104,8 +112,8 @@ footer {
 }
 
 h3 {
-  font-weight: 700;
-  font-size: 150%;
+  font-weight: 800;
+  font-size: 200%;
 }
 
 .contact__title-icons {
@@ -115,4 +123,8 @@ h3 {
   background-color: #232323;
   color: white;
   padding-bottom: 2%;
+}
+
+.home__top-text {
+  padding: 0;
 }
